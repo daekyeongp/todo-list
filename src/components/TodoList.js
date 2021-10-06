@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import React, { useCallback } from "react";
 import { List } from 'react-virtualized';
+=======
+import React from "react";
+>>>>>>> 521791f1fb649cac08491c6749f94cdbd130c22f
 import TodoListItem from "./TodoListItem";
 import './TodoList.scss';
 
 const TodoList = ({ todos, onRemove, onToggle }) => {
+<<<<<<< HEAD
     const rowRenderer = useCallback(
         ({ index, key, style }) => {
             const todo = todos[index];
@@ -34,3 +39,16 @@ const TodoList = ({ todos, onRemove, onToggle }) => {
 };
 
 export default React.memo(TodoList);
+=======
+    return (
+        <div className="TodoList">
+            {todos.map(todo => (
+                <TodoListItem todo={todo} key={todo.id} onRemove={onRemove}
+                onToggle={onToggle}/>
+            ))}
+        </div>
+    );
+};
+
+export default TodoList;
+>>>>>>> 521791f1fb649cac08491c6749f94cdbd130c22f
