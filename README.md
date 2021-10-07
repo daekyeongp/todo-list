@@ -23,25 +23,25 @@
 # Component Description (path: src/components/)
 
 ##### 1. TodoTemplate: 일정 관리를 보여주는 컴포넌트로, 화면을 가운데 정렬 하는 기능을하며, chileren으로 내부 JSX를 props로 받아 와서 렌더링 한다.
-👉 [[Todo-List] 1. 프로젝트 구성](https://velog.io/@daekyeong/Todo-List-1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%84%B1)
+👉 [[Todo-List] 1. 프로젝트 구성](https://velog.io/@daekyeong/Todo-List-1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%84%B1) <br/>
 👉 [[Todo-List] 2. 컴포넌트 생성](https://velog.io/@daekyeong/Todo-List-2.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%83%9D%EC%84%B1)
 
 ##### 2. TodoInsert: 새로운 항목을 입력하고 추가할 수 있는 컴포넌트로, state를 통해 인풋의 상태를 관리한다.
-👉 [[Todo-List] 1. 프로젝트 구성](https://velog.io/@daekyeong/Todo-List-1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%84%B1)
-👉 [[Todo-List] 2. 컴포넌트 생성](https://velog.io/@daekyeong/Todo-List-2.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%83%9D%EC%84%B1)
+👉 [[Todo-List] 1. 프로젝트 구성](https://velog.io/@daekyeong/Todo-List-1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%84%B1) <br/>
+👉 [[Todo-List] 2. 컴포넌트 생성](https://velog.io/@daekyeong/Todo-List-2.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%83%9D%EC%84%B1) <br/>
 👉 [[Todo-List] 3. 기능 구현](https://velog.io/@daekyeong/Todo-List-3.-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84)
 
 ##### 3. TodoListItem: 각 일정에 대한 정보를 보여주는 컴포넌트로, todo 객체를 props로 받아와서 상태에 따라 다른 스타일의 UI를 보여준다.
-👉 [[Todo-List] 1. 프로젝트 구성](https://velog.io/@daekyeong/Todo-List-1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%84%B1)
-👉 [[Todo-List] 2. 컴포넌트 생성](https://velog.io/@daekyeong/Todo-List-2.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%83%9D%EC%84%B1)
-👉 [[Todo-List] 3. 기능 구현](https://velog.io/@daekyeong/Todo-List-3.-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84)
-👉 [[Todo-List] 4. 컴포넌트 성능 개선 (1)](https://velog.io/@daekyeong/Todo-List-4.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0-1)
-👉 [[Todo-List] 5. 컴포넌트 성능 개선 (2)](https://velog.io/@daekyeong/Todo-List-5.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0-2)
+👉 [[Todo-List] 1. 프로젝트 구성](https://velog.io/@daekyeong/Todo-List-1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%84%B1) <br/>
+👉 [[Todo-List] 2. 컴포넌트 생성](https://velog.io/@daekyeong/Todo-List-2.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%83%9D%EC%84%B1) <br/>
+👉 [[Todo-List] 3. 기능 구현](https://velog.io/@daekyeong/Todo-List-3.-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84) <br/>
+👉 [[Todo-List] 4. 컴포넌트 성능 개선 (1)](https://velog.io/@daekyeong/Todo-List-4.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0-1) <br/>
+👉 [[Todo-List] 5. 컴포넌트 성능 개선 (2)](https://velog.io/@daekyeong/Todo-List-5.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0-2) <br/>
 
 ##### 4. TodoList: todos 배열을 props로 받아와 이를 배열 내장 함수 map을 이용해서 여러 개의 TodoListItem 컴포넌트로 변환하여 보여준다.
-👉 [[Todo-List] 1. 프로젝트 구성](https://velog.io/@daekyeong/Todo-List-1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%84%B1)
-👉 [[Todo-List] 2. 컴포넌트 생성](https://velog.io/@daekyeong/Todo-List-2.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%83%9D%EC%84%B1)
-👉 [[Todo-List] 3. 기능 구현](https://velog.io/@daekyeong/Todo-List-3.-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84)
+👉 [[Todo-List] 1. 프로젝트 구성](https://velog.io/@daekyeong/Todo-List-1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%84%B1) <br/>
+👉 [[Todo-List] 2. 컴포넌트 생성](https://velog.io/@daekyeong/Todo-List-2.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%83%9D%EC%84%B1) <br/>
+👉 [[Todo-List] 3. 기능 구현](https://velog.io/@daekyeong/Todo-List-3.-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84) <br/>
 👉 [[Todo-List] 5. 컴포넌트 성능 개선 (2)](https://velog.io/@daekyeong/Todo-List-5.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0-2)
 
 ---
